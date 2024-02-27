@@ -1,3 +1,4 @@
+// Demo Code to Test onboard 32 RGB Led of Rotary Encoder for ESP32
 #include <FastLED.h>
 
 #define DATA_PIN    8
