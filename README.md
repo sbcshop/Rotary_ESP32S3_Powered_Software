@@ -42,7 +42,7 @@ This GitHub page offers interfacing and getting started guide for Rotary Encoder
 
 - Rotary Encoder Interfacing with ESP32
   | ESP32 | Encoder |
-  |---|---|---|
+  |---|---|
   | IO15 | OUT A | 
   | IO16 | OUT B | 
 
