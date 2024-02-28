@@ -1,3 +1,17 @@
+/*
+Display interfacing Demo with Rotary Encoder for ESP32 
+------------------------------------------------------------------------------
+| ESP32 |	Display Pin |	Function                                             |
+------------------------------------------------------------------------------
+| IO12 |	SCLK	      | Clock pin of SPI interface for display               |
+| IO11 |	DIN	        | MOSI (Master OUT Slave IN) data pin of SPI interface |
+| IO9	 |  DC	        | Data/Command pin of SPI interface                    |
+| IO10 |	CS	        | Chip Select pin of SPI interface for display         |
+| IO14 |  RST	        | Display Reset Pin                                    |
+| IO46 |  BL	        | Backlight of Display                                 |
+------------------------------------------------------------------------------
+*/
+
 #include "SPI.h"
 #include "Adafruit_GFX.h"
 #include "Adafruit_GC9A01A.h"
