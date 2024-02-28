@@ -10,8 +10,8 @@ This GitHub page offers interfacing and getting started guide for Rotary Encoder
 
   | ESP32 | Touch Controller| Function |
   |---|---|---|
-  |IO38 | SDA | Touch I2C  |
-  |IO39 | SCL  | Touch I2C  |
+  |IO38 | SDA | Touch I2C Serial Data Bus  |
+  |IO39 | SCL  | Touch I2C Serial Clock |
   |IO47 | RESET  | Touch Reset  |
   |IO48 | INT  | Touch Intrrupt  |
 
@@ -87,7 +87,7 @@ This GitHub page offers interfacing and getting started guide for Rotary Encoder
 
 ### Example Codes
    
-   In examples folder you will find demo examples to try out on UHF reader for ESP32 board, some demo listed below
+   In examples folder you will find demo examples related to onboard components,
    - [Display Demo](https://github.com/sbcshop/Rotary_ESP32S3_Powered_Software/tree/main/examples/display_demo) : testing code for display
    - [SD card Demo](https://github.com/sbcshop/Rotary_ESP32S3_Powered_Software/tree/main/examples/sdcard_demo) : code to test onboard micro SD card interfacing
    - [RGB LED](https://github.com/sbcshop/Rotary_ESP32S3_Powered_Software/tree/main/examples/rgb_demo) : Demo code for onboard RGB Led control
