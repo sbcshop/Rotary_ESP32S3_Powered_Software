@@ -1,7 +1,7 @@
 /*
 Display interfacing Demo with Rotary Encoder for ESP32 
 --------------------------------------------------------------------------------
-| ESP32 |	Display Pin |	Function                                           |
+| ESP32 |  Display Pin  | Function                                             |
 --------------------------------------------------------------------------------
 | IO12  |  SCLK	        | Clock pin of SPI interface for display               |
 | IO11  |  DIN	        | MOSI (Master OUT Slave IN) data pin of SPI interface |
